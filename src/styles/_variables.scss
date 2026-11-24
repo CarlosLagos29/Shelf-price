@@ -1,0 +1,46 @@
+$color-bg: #f7f7f5;
+$color-surface: #ffffff;
+$color-text: #1c1c1c;
+$color-text-muted: #6b6b6b;
+$color-border: #e2e2de;
+$color-primary: #1f6f4a;
+$color-primary-contrast: #ffffff;
+$color-danger: #b3261e;
+$color-warning: #a15c00;
+$color-success: #1f6f4a;
+
+$font-family-base:
+  system-ui,
+  -apple-system,
+  "Segoe UI",
+  Roboto,
+  "Helvetica Neue",
+  Arial,
+  sans-serif;
+$font-family-mono: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+$font-size-sm: 0.875rem;
+$font-size-base: 1rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.5rem;
+$line-height-base: 1.5;
+
+$space-1: 0.25rem;
+$space-2: 0.5rem;
+$space-3: 0.75rem;
+$space-4: 1rem;
+$space-6: 1.5rem;
+$space-8: 2rem;
+
+$radius-sm: 4px;
+$radius-md: 8px;
+$radius-lg: 12px;
+$shadow-sm: 0 1px 2px rgb(0 0 0 / 6%);
+
+$tap-target: 44px;
+
+$breakpoints: (
+  sm: 480px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1280px,
+);

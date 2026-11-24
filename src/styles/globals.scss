@@ -1,0 +1,28 @@
+@use "reset";
+@use "variables" as *;
+@use "mixins" as *;
+
+:root {
+  --color-bg: #{$color-bg};
+  --color-surface: #{$color-surface};
+  --color-text: #{$color-text};
+  --color-text-muted: #{$color-text-muted};
+  --color-border: #{$color-border};
+  --color-primary: #{$color-primary};
+  --color-danger: #{$color-danger};
+}
+
+html {
+  font-family: $font-family-base;
+  font-size: 100%;
+  line-height: $line-height-base;
+}
+
+body {
+  background: $color-bg;
+  color: $color-text;
+}
+
+:focus-visible {
+  @include focus-ring;
+}
